@@ -1,0 +1,56 @@
+.book {
+  width: 90vw;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  position: relative;
+  background-color: #348bd3;
+  color: beige;
+}
+
+.image {
+  height: 250px;
+  border-radius: 1rem;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+}
+.author {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Karla", sans-serif;
+}
+
+.removeBtn {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  color: rgb(229, 229, 237);
+  font-weight: 800;
+  font-size: large;
+  font-family: "Karla", sans-serif;
+  background-color: rgb(169, 0, 0);
+  top: 0.4rem;
+  right: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+@media screen and (min-width: 900px) {
+  .book {
+    flex: 33%;
+  }
+}

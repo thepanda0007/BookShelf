@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(246, 231, 231);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: rgb(27, 16, 60);
+  color: #eceafd;
+}
+
+.heading {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}

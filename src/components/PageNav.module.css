@@ -1,0 +1,31 @@
+.nav {
+  border-top: 2px solid black;
+  /* border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem; */
+  background-color: rgba(188, 190, 253);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.nav a:global(.active) {
+  filter: drop-shadow(0 0 4px rgb(177, 50, 15));
+}
+
+@media screen and (min-width: 900px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav img {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

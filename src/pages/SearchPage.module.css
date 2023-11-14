@@ -1,0 +1,38 @@
+.searchBar {
+  display: block;
+  margin: 3rem auto 0 auto;
+
+  height: 2.5rem;
+  width: 80%;
+  font-size: 1.8rem;
+
+  border: 2px solid blue;
+  border-radius: 1rem;
+}
+
+.searchBtn {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 2rem;
+
+  background-color: #7ce8b3;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+
+@media screen and (min-width: 900px) {
+  .books {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

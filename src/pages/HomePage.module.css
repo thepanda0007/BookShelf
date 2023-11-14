@@ -1,0 +1,85 @@
+.content {
+  margin-bottom: 8rem;
+}
+
+.searchBar {
+  display: block;
+  margin: 3rem auto 0 auto;
+
+  height: 2.5rem;
+  width: 80%;
+  font-size: 1.8rem;
+
+  border: 2px solid blue;
+  border-radius: 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.myBookSection {
+  margin-top: 1rem;
+}
+
+.myBookSection h3 {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+}
+.myBookSection .seeAllLink {
+  text-decoration: none;
+  color: blue;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+}
+.myBookSection .noBook {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Karla", sans-serif;
+  padding-bottom: 2rem;
+}
+.myBookSection .myBooks {
+  display: flex;
+}
+
+.allTimeFavSection .books {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  flex: 50%;
+  margin-bottom: 1rem;
+}
+.book img {
+  height: 220px;
+}
+.book .imageWrapper {
+  text-align: center;
+}
+.book .title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.allTimeFavSection h3 {
+  margin-left: 1rem;
+  font-size: 1.8rem;
+  font-family: "Karla", sans-serif;
+}
+
+@media screen and (min-width: 900px) {
+  .allTimeFavSection .books {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
